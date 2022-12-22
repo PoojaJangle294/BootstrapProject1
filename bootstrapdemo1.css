@@ -7,6 +7,12 @@ body{
 
 }
 
+.a3{
+  color: white;
+}
+.a3:hover{
+  color: orange;
+}
 .a2:hover{
 color:chartreuse;
 }
@@ -30,6 +36,7 @@ width: 40%;
     transform: scale(1.1); 
     opacity: 0.8;
   }
+
 
   .img_cap{
     width: 92%;
@@ -90,9 +97,9 @@ width: 40%;
 	
 }
 .prbtn{
-    margin-left: 400px;
     width: 300px;
     height: 70px;
+    /* margin-left: 450px; */
 }
 
 
@@ -136,4 +143,9 @@ width: 40%;
   .btn2:hover:after {
     -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
     transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+
+  .grid-container {
+    text-align: center;
+
   }
